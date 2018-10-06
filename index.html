@@ -1,23 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
     <script src="assets/javascript/game.js"></script>
+
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     
     <title>Psychic Game</title>
 </head>
 <body>
-    <h1>THE PSYCHIC GAME</h1>
+        <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">THE PSYCHIC GAME</h1>
+                  <p class="lead">Guess what letter I'm thinking.</p>
+                </div>
+              </div>
 
+    
+<div id= "board">
     <p>Guess what letter I'm thinking.</p>
     <p id = "wins">Wins : </p>
     <p id = "losses">Losses :</p>
     <p id = "guessesLeft">Guesses left : 10</p>
     <p id = "done">Your guesses so far :</p>
-    
+</div>  
 </body>
 </html>
