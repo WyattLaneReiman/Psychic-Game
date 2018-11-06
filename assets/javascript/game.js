@@ -19,7 +19,7 @@ var reset = function () {
     document.getElementById("guessesLeft").innerHTML = "Guesses left : " + guessesLeft;
     document.getElementById("done").innerHTML = "Your guesses so far : " + guessedLetters;
 }
-
+console.log(computerGuess);
 //user input key 
 //letters guessed
 //win and lose counter
